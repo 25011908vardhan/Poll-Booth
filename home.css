@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width:100%;
+    font-family: 'Baloo Bhaina 2', cursive;
+    /* background-color: rgb(2, 37, 2); */
+    /* background-color: rgb(31, 56, 31); */
+    /* background-attachment:local; */
+}
+html{
+    /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+    font-size:62.5%;
+
+}
+@media(max-width:998px)
+{
+html{
+    /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+    font-size:55%;
+
+}
+}
+@media(max-width:768px)
+{
+    html{
+        /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+        font-size:45%;
+    
+    }
+
+}
+@media(max-width:450px)
+{
+    html{
+        /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+        font-size:35%;
+    
+    }
+
+}
+body{
+    background-image: url("bgnew.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* #bgimg{
+    position: absolute; 
+    /* height: 100vh; */
+    /* height: 100%;
+    width: 100%; */
+    /* z-index: -1; */
+    /* background-attachment: fixed; */
+    /* background-repeat: repeat-y; */
+
+.navbar{
+    background-color: rgba(216, 64, 64, 0.336);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+li{
+    display: inline-block;
+}
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border: .2rem solid rgb(0, 0, 0);
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    font-size: 2.7rem;
+    padding: 0.2rem;
+    /* background-color:rgba(58, 58, 58, 0.767); */
+    background-color:rgba(0, 0, 0, 0.678);
+    color: white;
+    margin: 1.0rem;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    color:black ;
+    transform: scale(1.1);
+}
+ul a{
+    font-size: 2.7rem;
+    text-decoration: none;
+    color: white;
+}
+ul a:hover{
+    color:black;
+}
+.msg{
+    color:white;
+    font-size: 5.0rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 37.0rem;
+    left: 10%;
+    /* color:rgba(94, 230, 128, 0.534); */
+}
+/* .btn a{
+    text-decoration: none;
+} */

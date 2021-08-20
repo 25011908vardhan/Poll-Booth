@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+html{
+    /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+    font-size:62.5%;
+
+}
+@media(max-width:998px)
+{
+html{
+    /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+    font-size:55%;
+
+}
+}
+@media(max-width:768px)
+{
+    html{
+        /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+        font-size:45%;
+    
+    }
+
+}
+@media(max-width:450px)
+{
+    html{
+        /* As in browser 1rem is approx 16px, we overwrite it as 10px so now 1rem becomes 10px i.e. Ypx=Y/10 rem*/
+        font-size:35%;
+    
+    }
+
+}
+#userData{
+    background-color: rgba(23, 54, 3, 0.274);
+    border: .2rem solid black;
+    border-top-left-radius: 5.0rem;
+    border-bottom-right-radius: 5.0rem;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5.0rem;
+    padding: 2.0rem;
+    font-size: 2.5rem;
+    color: rgb(194, 175, 175);
+    
+}
+#userData td,th{
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+#img{
+    position:absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+th{
+    color: yellowgreen;
+    font-size: 2.8rem;
+}
+.add{
+    height: 4.5rem;
+    width:4.5rem;
+    background-color: rgb(204, 34, 34);
+}
+/* #finalCreate{
+    
+} */
+/* .form{
+    
+} */
