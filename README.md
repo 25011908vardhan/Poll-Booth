@@ -1,4 +1,5 @@
-# Welcome to the Poll Booth
+# Welcome to the Poll Booth<br>
+## [Click](https://poll-booth.000webhostapp.com/) to view
 ## About
 👤 A user management system with authentication that allows users to register and login on the site.<br>
 🔐 The passwords of users are stored using Blowfish Encryption Algorithm with 10 rounds!<br>
